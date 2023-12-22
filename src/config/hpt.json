@@ -1,0 +1,11 @@
+{
+  "num_trials": 20,
+  "hyperparameters": [
+    {
+      "name": "multi_class",
+      "short_desc": "Specifies how multi-class classification problems are handled. Supported are 'one_vs_rest' and 'one_vs_one'. In 'one_vs_rest', one binary Gaussian process classifier is fitted for each class, which is trained to separate this class from the rest. In 'one_vs_one', one binary Gaussian process classifier is fitted for each pair of classes, which is trained to separate these two classes.",
+      "type": "categorical",
+      "categories": ["one_vs_rest", "one_vs_one"]
+    }
+  ]
+}
